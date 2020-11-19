@@ -1,15 +1,25 @@
-import card from './assets/card.png';
 import './App.css';
+import StartScreen from './pages/StartScreen'
+import GameScreen from './pages/GameScreen'
+import SignUp from './pages/SignUp'
+
+function getAppState() {
+  if (true) {
+    return <StartScreen/>
+  }
+  else if (false) {
+    return <GameScreen/>
+  }
+  else if (false) {
+    return <SignUp/>
+  }
+
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={card} className="App-logo" alt="logo" />
-        <p className="rules">
-          The rules
-        </p>
-      </header>
+      {getAppState()}
     </div>
   );
 }
