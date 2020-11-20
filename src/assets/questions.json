@@ -1,0 +1,56 @@
+[
+    {
+        "type": "option",
+        "question": "What is Hala's current horse's name?",
+        "options": ["Ally", "Rascal", "Henry", "Chicago"],
+        "answer": "Henry"
+    },
+    {
+        "type": "option",
+        "question": "Who is Hala's mario kart character?",
+        "options": ["Daisy", "Roselina", "Toad", "Toadette"],
+        "answer": "Roselina"
+    },
+    {
+        "type": "option",
+        "question": "What is Hala's Hogwarts house?",
+        "options": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"],
+        "answer": "Gryffindor"
+    },
+    {
+        "type": "option",
+        "question": "When is Hala's actual birthday?",
+        "options": ["November 29th", "November 24th", "November 25th", "November 30th"],
+        "answer": "November 25th"
+    },
+    {
+        "type": "option",
+        "question": "Who is Hala's favorite superhero?",
+        "options": ["Iron Man", "Captain America", "Black Widow", "Black Panther"],
+        "answer": "Captain America"
+    },
+    {
+        "type": "option",
+        "question": "Can you stack draw 2 cards in Uno",
+        "options": ["Yes", "No"],
+        "answer": "No"
+    },
+    {
+        "type": "option",
+        "question": "Would Hala rather...",
+        "options": ["x", "y"],
+        "answer": "x"
+    },
+    {
+        "type": "rule",
+        "question": "Must refer to Hala as Queen H"
+    },
+    {
+        "type": "open",
+        "question": "Draw a picture of Hala"
+    },
+    {
+        "type": "open",
+        "question": "What is Hala's most iconic saying/phrase?"
+    }
+]

@@ -1,25 +1,32 @@
-.App {
-    text-align: center;
+  h1 {
+    font-family: KeeponTruckin;
   }
-  
-  .App-logo {
+
+  .card {
     height: 40vmin;
     pointer-events: none;
   }
   
-  .rules {
+  .rule-header {
     font-family: KeeponTruckin;
-    color: #000;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .rules {
+    font-family: XanhMono;
+    font-size: 15px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   
-  .App-header {
+  .startScreen {
     background-color: #fff;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #000;
   }
   

@@ -3,6 +3,11 @@
   src: local('KeeponTruckin'), url(./assets/KeeponTruckin.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'XanhMono';
+  src: local('XanhMono'), url(./assets/XanhMono-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

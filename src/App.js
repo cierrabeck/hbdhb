@@ -5,10 +5,10 @@ import SignUp from './pages/SignUp'
 
 function getAppState() {
   if (true) {
-    return <StartScreen/>
+    return <GameScreen/>
   }
   else if (false) {
-    return <GameScreen/>
+    return <StartScreen/>
   }
   else if (false) {
     return <SignUp/>

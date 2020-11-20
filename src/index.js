@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/KeeponTruckin.ttf'
+import './assets/XanhMono-Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
