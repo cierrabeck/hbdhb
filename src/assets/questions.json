@@ -43,14 +43,45 @@
     },
     {
         "type": "rule",
-        "question": "Must refer to Hala as Queen H"
+        "question": "Must refer to Hala as Queen H",
+        "rule": "If you don't, you have to drink"
     },
     {
         "type": "open",
-        "question": "Draw a picture of Hala"
+        "question": "What is your favorite Hala memory?"
     },
     {
         "type": "open",
         "question": "What is Hala's most iconic saying/phrase?"
+    },
+    {
+        "type": "option",
+        "question": "What is Hala's fish's name?",
+        "options": ["Anansh", "Julian", "Peter", "Hank"],
+        "answer": "x"
+    },
+    {
+        "type": "photo",
+        "question": "hala1"
+    },
+    {
+        "type": "photo",
+        "question": "hala2"
+    },
+    {
+        "type": "photo",
+        "question": "hala3"
+    },
+    {
+        "type": "photo",
+        "question": "hala4"
+    },
+    {
+        "type": "photo",
+        "question": "hala5"
+    },
+    {
+        "type": "photo",
+        "question": "hala6"
     }
 ]

@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+}
+
+.smallCard {
+    width: 194px;
+    height: 269px;
+    padding: 20px;
+}

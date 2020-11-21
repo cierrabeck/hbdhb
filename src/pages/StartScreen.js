@@ -6,7 +6,7 @@ function StartScreen() {
   return (
     <div className="startScreen">
         <Header/>
-        <h1> The Bala Hailey drinking game </h1> 
+        <h1> The Bala Hailey birthday game </h1> 
         <img src={card} className="card" alt="card" />
         <p className="rule-header">
             How to play:

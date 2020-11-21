@@ -4,7 +4,6 @@ function Timer(props) {
   const [seconds, setSeconds] = useState(props.countdownTime);
 
   useEffect(() => {
-    console.log('hi')
     let interval = null;
     if (seconds > 0) {
           interval = setInterval(() => {
@@ -19,7 +18,7 @@ function Timer(props) {
 
   return (
       <div className="timer" style={timerStyle}>
-        {seconds}s
+        <div style={textStyle}> {seconds}s </div>
       </div>
   );
 };
@@ -27,9 +26,17 @@ function Timer(props) {
 export default Timer;
 
 const timerStyle = {
+  width: '100px',
+  height: '100px',
+  borderRadius: '50%',
   background: '#FCEEC2',
   border: '9px solid #EBCC68',
   fontFamily: 'KeeponTruckin',
   fontSize: '55px',
-  color: '#EBCC68'
+  color: '#EBCC68',
+  justifyContent: 'center',
+}
+
+const textStyle = {
+  paddingTop: '20px',
 }

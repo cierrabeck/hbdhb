@@ -12,11 +12,13 @@
     text-align: left;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-left: 30px;
   }
 
   .rules {
     font-family: XanhMono;
     font-size: 15px;
+    padding-left: 80px;
     text-align: left;
     align-items: flex-start;
     justify-content: flex-start;
